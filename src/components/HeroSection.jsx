@@ -1,5 +1,5 @@
-import React from 'react'
-import hero from '../assets/images/h1.svg'
+import React from 'react';
+import hero from '../assets/images/wa.svg';
 
 const HeroSection = () => {
   return (
@@ -14,10 +14,10 @@ const HeroSection = () => {
         </div>
 
         {/*blur de atras*/}
-        <div className='w-full px-5 sm:px-8 md:px-12 lg:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
-            <div className='grid lg:grid-cols-2 gap-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
+        <div className='w-full px-5 sm:px-8 md:px-12 lg:px-12 max-w-5xl lg:max-w-7xl mx-auto relative'>
+            <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
                 <div className='lg:py-6'>
-                    <div className='text-center lgtext-left'>
+                    <div className='text-center lg:text-left'>
                         <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                             Hola, soy{' '}
                             <span className='text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-200'>Ivonne
@@ -25,7 +25,7 @@ const HeroSection = () => {
                         </h1>
                     </div>
                     <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-                        Entusiasta en desarrollo frontend con experiencia en React y Node.js
+                        Entusiasta en desarrollo frontend con experiencia en React y Node.js. 
                         Mi meta es especializarme en la programación de interfaces interactivas, realizar elementos claros, estéticos, funcionales y adaptables a diferentes pantallas y plataformas.
                          
                     </p>
@@ -54,17 +54,33 @@ const HeroSection = () => {
                             </div>
                         </button>
                     </div>
+
+                </div>
+
+                {/*imagen */}
                 <div className='lg:h-full md:flex'>
-                    <div className='flex w-full h-96 min-h-96 lg:min-h-[none] lg:w-full lg:h-full items-center relative'>
-                        <div className='absolute z-0 top-1/2-translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-linear-to-r opacity-25 from-[#0c64ac] to-primary blur-2xl'>
+                    <div className='flex w-full h-[520px] min-h-[520px] lg:min-h-0 lg:w-full lg:h-full items-center relative'>
+
+                        <div className='absolute z-0 top-1/2
+                        -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-linear-to-r opacity-25 from-[#0c64ac] to-primary blur-2xl'>
                         </div>
-                        
 
+                        <div className='absolute h-full   z-10 p-2
+                        -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-lg border border-cyan-500'>
+                            
+                            <img src={hero} 
+                            alt="mi foto w" 
+                            width="500"
+                            height="auto"
+                            loading='lazy'
+                            className='w-full h-full 
+                            rounded-[30%_70%_70%_30%/30%_30%_70%_70%]
+                            object-cover'
+                            />
+                        </div>
                     </div>
-
                 </div>
 
-                </div>
 
             </div>
 
@@ -73,4 +89,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;
