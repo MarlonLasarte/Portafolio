@@ -2,6 +2,7 @@
 @layer base {
   :root {
     --primary: #330fff;
+    --secondary: #00ffff;
   }
 }
 
@@ -11,7 +12,7 @@
   }
 
   .text-primary {
-    color: var(--primary);
+    color: var(--secondary);
   }
 
   .from-primary {

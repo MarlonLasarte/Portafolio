@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] =useState(false);
 
   const menuItems=[
-    {name:'Sobre mi',href:'#about-me'},
+    
     {name:'Educación',href:'#education'},
     {name:'Proyectos',href:'#projects'},
     {name:'Conocimientos',href:'#skills'},

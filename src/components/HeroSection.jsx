@@ -20,12 +20,12 @@ const HeroSection = () => {
                     <div className='text-center lg:text-left'>
                         <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                             Hola, soy{' '}
-                            <span className='text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-200'>Ivonne
+                            <span className='text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-200'>Ivonne Ibañez Torres
                             </span>
                         </h1>
                     </div>
                     <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-                        Entusiasta en desarrollo frontend con experiencia en React y Node.js. 
+                        Entusiasta en desarrollo frontend con React y Node.js. 
                         Mi meta es especializarme en la programación de interfaces interactivas, realizar elementos claros, estéticos, funcionales y adaptables a diferentes pantallas y plataformas.
                          
                     </p>
