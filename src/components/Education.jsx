@@ -1,15 +1,15 @@
 import React from 'react';
 import educ from '../assets/images/upc.png'
-import { Calendar, GraduationCap } from 'lucide-react';
+import { Calendar, CheckCircle, GraduationCap } from 'lucide-react';
 
 const Education = () => {
     const educationData=[
         {
             id:1,
-            degree:"Generales Ciencias",
+            degree:"Estudios Generales Ciencias",
             institution:"Pontificia Universidad Católica del Perú",
             duration:"Marzo 2022 - Febrero 2024",
-            details:'Estudios generales ciencias'
+            details:' '
         },
         {
             id:2,
@@ -83,20 +83,12 @@ const Education = () => {
 
                         <p className='text-primary text-sm leading-relaxed mb-4'>
                             {edu.details}
-                        </p>
-                        
-
+                        </p> 
                     </div>
 
                 ))}
-
                 </div>
-
             </div>
-
-
-
-
         </div>
     </section>  
   )
