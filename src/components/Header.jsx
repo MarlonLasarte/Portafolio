@@ -7,9 +7,10 @@ const Header = () => {
   const menuItems=[
     
     {name:'Educación',href:'#education'},
+    {name:'Certificados',href:'#certificates'},
     {name:'Proyectos',href:'#projects'},
     {name:'Conocimientos',href:'#skills'},
-    {name:'Certificados',href:'#certificates'},
+
     // {name:'contacto',href:'#contact'},
   ];
   

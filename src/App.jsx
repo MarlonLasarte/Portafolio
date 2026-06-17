@@ -5,6 +5,7 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Education from './components/Education'
 import Certificates from './components/Certificates'
+import Projects from './components/Projects'
 
 const App = () => {
   useEffect(() => {
@@ -18,8 +19,9 @@ const App = () => {
     <div className='bg-[#111827] min-h-screen'>
       <Header />
       <HeroSection />
-      <Education/>
-      <Certificates/>
+      <Education />
+      <Certificates />
+      <Projects />
     </div>
 
   )
