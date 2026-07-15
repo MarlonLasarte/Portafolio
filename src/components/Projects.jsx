@@ -28,7 +28,7 @@ const Projects = () => {
         title:'Glucem-IA',
         desc:'Prototipo desarrollado grupalmente en 29 horas para el reto hackathon UPC-Bagó Perú 2026 que acompaña a adultos con diabetes',
         date:'June 2026',
-        tech:['Vite','React']
+        tech:['Python','Streamlit']
     },
   ]
   

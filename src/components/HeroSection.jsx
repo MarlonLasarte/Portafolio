@@ -58,10 +58,10 @@ const HeroSection = () => {
                                     <div className='download-loader text-white hidden'>
                                     </div>
                                 </div>
-                                <a href="/CV-ESP-Ivonne.pdf"
-                                download="CV-ESP-Ivonne.pdf"
+                                <a href="/Ivonne-Ibañez-Torres-CV.pdf"
+                                download="Ivonne-Ibañez-Torres-CV.pdf"
                                 className='pl-2 text-cyan-400'>
-                                 Descargar CV   
+                                 Descargar CV
                                 </a>
                             </div>
                         </button>
