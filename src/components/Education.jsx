@@ -16,7 +16,7 @@ const Education = () => {
             degree:"Ingeniería de Software",
             institution:"Universidad Peruana de Ciencias Aplicadas",
             duration:"Marzo 2024 - Actualidad",
-            details:'Cursando el 5to ciclo de la carrera'
+            details:'Cursando el 7mo ciclo de la carrera'
         },
     ]
 
