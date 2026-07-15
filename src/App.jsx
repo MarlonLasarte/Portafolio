@@ -9,6 +9,8 @@ import Projects from './components/Projects'
 
 const App = () => {
   useEffect(() => {
+    window.history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
     AOS.init({
       duration: 1000,
       once:false,

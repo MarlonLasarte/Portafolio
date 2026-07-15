@@ -3,17 +3,9 @@ import hero from '../assets/images/wa.svg';
 
 const HeroSection = () => {
   return (
-    <section className='relative w-full' data-aos='zoom-in-up'>
-        <div className='absolute top-0 inset-x-0 h-64 flex items-start'>
-            <div className='h-24 w-2/3 bg-linear-to-br from-[#0c7fac] blur-2xl invisible opacity-40'>
-            </div>
-            
-            <div className='h-20 w-3/4 bg-linear-to-r from-[#289eff] opacity-40 blur-2xl'>
-            </div>
+    <section className='relative w-full min-h-screen  flex items-center' data-aos='zoom-in-up'>
+        
 
-        </div>
-
-        {/*blur de atras*/}
         <div className='w-full px-5 sm:px-8 md:px-12 lg:px-12 max-w-5xl lg:max-w-7xl mx-auto relative'>
             <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
                 <div className='lg:py-6'>
